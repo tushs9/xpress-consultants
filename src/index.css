@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f9fafb;
+  color: #333;
+}
+
+:root {
+  --primary: #0D47A1;
+  --gold: #D4AF37;
+}
+
+.text-primary { color: var(--primary); }
+.text-gold { color: var(--gold); }
+.bg-primary { background-color: var(--primary); }
+.bg-gold { background-color: var(--gold); }
+.border-gold { border-color: var(--gold); }
+
+.hero-gradient {
+  background: linear-gradient(90deg, #003366 0%, #d4af37 100%);
+}
